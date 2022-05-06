@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_colors_colors",
+  "info": {
+    "displayName": "color",
+    "icon": "address-book",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "hexColor": {
+      "type": "string",
+      "required": true,
+      "default": "#"
+    },
+    "disabled": {
+      "type": "boolean",
+      "default": false,
+      "required": false
+    }
+  }
+}
